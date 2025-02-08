@@ -1,0 +1,95 @@
+.hangman {
+  position: relative;
+}
+
+.base {
+  background-color: black;
+  width: 250px;
+  height: 10px;
+}
+
+.stand {
+  background-color: black;
+  width: 10px;
+  height: 450px;
+}
+
+.roof {
+  background-color: black;
+  width: 160px;
+  height: 10px;
+}
+
+.rope {
+  background-color: black;
+  position: absolute;
+  width: 10px;
+  height: 70px;
+  top: 0;
+  right: 80px;
+}
+
+.player {
+  position: absolute;
+  right: 45px;
+  top: 70px;
+}
+
+.head {
+  height: 80px;
+  width: 80px;
+  border: 10px solid black;
+  border-radius: 50%;
+}
+
+.body {
+  position: absolute;
+  width: 10px;
+  height: 130px;
+  background-color: black;
+  left: 35px;
+}
+
+.rightArm {
+  position: absolute;
+  background-color: black;
+  height: 10px;
+  width: 90px;
+  top: 120px;
+  left: 40px;
+  rotate: -45deg;
+  transform-origin: left;
+}
+
+.leftArm {
+  position: absolute;
+  background-color: black;
+  height: 10px;
+  width: 90px;
+  top: 120px;
+  right: 40px;
+  rotate: 45deg;
+  transform-origin: right;
+}
+
+.rightLeg {
+  position: absolute;
+  background-color: black;
+  height: 10px;
+  width: 90px;
+  top: 205px;
+  left: 44px;
+  rotate: 60deg;
+  transform-origin: left top;
+}
+
+.leftLeg {
+  position: absolute;
+  background-color: black;
+  height: 10px;
+  width: 90px;
+  top: 205px;
+  right: 44px;
+  rotate: -60deg;
+  transform-origin: right top;
+}

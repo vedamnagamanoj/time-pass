@@ -1,0 +1,31 @@
+.keyboard {
+  align-self: stretch;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(75px, 1fr));
+  gap: 5px;
+}
+
+.keys {
+  font-size: 3rem;
+  aspect-ratio: 1/1;
+  padding: 10px;
+  border: 3px solid black;
+  text-align: center;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.keys:hover:not(:disabled),
+.keys:focus:not(:disabled) {
+  background-color: rgb(137, 217, 248);
+  color: white;
+}
+
+/* .keys:hover:disabled {
+  color: lightgray;
+} */
+.keys:disabled {
+  border-color: lightgray;
+  color: lightgray;
+  cursor: not-allowed;
+}

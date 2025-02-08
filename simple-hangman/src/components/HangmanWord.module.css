@@ -1,0 +1,26 @@
+.word {
+  color: black;
+  display: flex;
+  gap: 20px;
+}
+
+.letter {
+  font-size: 4rem;
+  font-weight: bold;
+  border-bottom: 5px solid black;
+  text-transform: uppercase;
+}
+.hidden {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.red {
+  color: red;
+}
+.black {
+  color: black;
+}
